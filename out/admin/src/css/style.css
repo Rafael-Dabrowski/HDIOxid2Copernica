@@ -1,0 +1,20 @@
+/* 
+    Document   : style
+    Created on : 12.07.2012, 11:19:27
+    Author     : Entwicklung
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+#hdio2c .wait{background-image: url('../img/wait.gif'); display: inline-block; width: 16px;height: 11px;}
+#hdio2c td{vertical-align: top;}
+
+#hdio2c input, #hdio2c select{min-width:150px;}
+
+#hdio2c .newPanel {background: #f7f7f7; border: 1px dashed #ccc;padding: 3px; }
+.waitingcursor{cursor: wait;}
+#hdio2c .page{ cursor: pointer; }
+#hdio2c .page:hover{text-decoration: underline; }
+#hdio2c .curPage{font-size: 2em; }
+#hdio2c .paging{margin: 0px auto; width: 100px; }
